@@ -3,16 +3,28 @@ body{
 }
 
 .banner{
-    background-image: url(./images/donation10.jpg);
+    background-image: url(./images/donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-content{
     color: white;
     text-align: center;  
+    margin: 0 300px;
+}
+
+.banner-content h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
 }
 
 button{
@@ -20,6 +32,7 @@ button{
     background-color: hotpink;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     margin: 20px;
+    font-size: 20px;
 }
